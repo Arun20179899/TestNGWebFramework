@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
+<!--    We will define the parameterising testNG in Test Suite level as well test-->
+    <parameter name="URL" value="QAClickAcademy.com"/>
     <test name="Regression"> <!-- this is acts like a module -->
         <groups>
             <run>
-                <include name="Smoke"/>
+<!--                <include name="Smoke"/>-->
             </run>
         </groups>
         <classes>
-            <class name="loan.Education"/> <!-- Package name.class name -->
-            <class name="loan.Animal"/>
-            <class name="loan.HomeLoan"/>
-            <class name="loan.Car"/>
+<!--            <class name="loan.Education"/> &lt;!&ndash; Package name.class name &ndash;&gt;-->
+<!--            <class name="loan.Animal"/>-->
+<!--            <class name="loan.HomeLoan"/>-->
+<!--            <class name="loan.Car"/>-->
+<!--            <class name="testNGHelperAttribute.TestNGHelper"/>-->
+            <class name="parameterising.ParameterTestNG"/>
         </classes>
     </test>
 </suite>
