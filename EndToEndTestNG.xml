@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+    <test verbose="2" preserve-order="true" name="Personal Loan"> <!-- this is acts like a module -->
+        <classes>
+            <class name="loan.Education"> <!-- Package name.class name -->
+                <methods>
+                    <exclude name="getSSLCLoan"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Home Loan">
+        <classes>
+            <class name="loan.HomeLoan"/>
+        </classes>
+    </test>
+
+    <test name="Animal Loan">
+        <classes>
+            <class name="loan.Animal">
+                <methods>
+                    <exclude name="cow.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Car Loan">
+        <classes>
+            <class name="loan.Car"/>
+        </classes>
+    </test>
+
+</suite>
