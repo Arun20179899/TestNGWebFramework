@@ -1,5 +1,6 @@
 package loan;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class Animal {
@@ -22,6 +23,7 @@ public class Animal {
     @Test(groups = {"Smoke"})
     public void goatLoan() {
         System.out.println("goat Loan Sanctioned");
+        Assert.assertTrue(false);
     }
 
     @Test

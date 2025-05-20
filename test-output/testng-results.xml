@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-20T23:13:37 IST" name="Loan Department" finished-at="2025-05-20T23:13:37 IST" duration-ms="470">
+    <groups>
+      <group name="Smoke">
+        <method signature="Education.getPUCLoan()[pri:0, instance:loan.Education@14dd9eb7]" name="getPUCLoan" class="loan.Education"/>
+        <method signature="HomeLoan.getBBMPHomeLoan()[pri:0, instance:loan.HomeLoan@1623b78d]" name="getBBMPHomeLoan" class="loan.HomeLoan"/>
+        <method signature="Animal.goatLoan()[pri:0, instance:loan.Animal@4c583ecf]" name="goatLoan" class="loan.Animal"/>
+        <method signature="Car.getXUV()[pri:0, instance:loan.Car@2b71e916]" name="getXUV" class="loan.Car"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-05-20T23:13:37 IST" name="Home Loan" finished-at="2025-05-20T23:13:37 IST" duration-ms="124">
+      <class name="loan.HomeLoan">
+        <test-method signature="getBBMPHomeLoan()[pri:0, instance:loan.HomeLoan@1623b78d]" started-at="2025-05-20T23:13:37 IST" name="getBBMPHomeLoan" finished-at="2025-05-20T23:13:37 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBBMPHomeLoan -->
+        <test-method signature="getVillageHomeLoan()[pri:0, instance:loan.HomeLoan@1623b78d]" started-at="2025-05-20T23:13:37 IST" name="getVillageHomeLoan" finished-at="2025-05-20T23:13:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVillageHomeLoan -->
+      </class> <!-- loan.HomeLoan -->
+    </test> <!-- Home Loan -->
+    <test started-at="2025-05-20T23:13:37 IST" name="Personal Loan" finished-at="2025-05-20T23:13:37 IST" duration-ms="116">
+      <class name="loan.Education">
+        <test-method signature="getPUCLoan()[pri:0, instance:loan.Education@14dd9eb7]" started-at="2025-05-20T23:13:37 IST" name="getPUCLoan" finished-at="2025-05-20T23:13:37 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPUCLoan -->
+      </class> <!-- loan.Education -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2025-05-20T23:13:37 IST" name="Car Loan" finished-at="2025-05-20T23:13:37 IST" duration-ms="83">
+      <class name="loan.Car">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="beforeMethod" finished-at="2025-05-20T23:13:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getCreata()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="getCreata" finished-at="2025-05-20T23:13:37 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreata -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="afterMethod" finished-at="2025-05-20T23:13:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="beforeMethod" finished-at="2025-05-20T23:13:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getNexon()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="getNexon" finished-at="2025-05-20T23:13:37 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNexon -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="afterMethod" finished-at="2025-05-20T23:13:37 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="beforeMethod" finished-at="2025-05-20T23:13:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getXUV()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="getXUV" finished-at="2025-05-20T23:13:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXUV -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:loan.Car@2b71e916]" started-at="2025-05-20T23:13:37 IST" name="afterMethod" finished-at="2025-05-20T23:13:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- loan.Car -->
+      <class name="loan.Education">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:loan.Education@14dd9eb7]" started-at="2025-05-20T23:13:37 IST" name="beforeSuite" finished-at="2025-05-20T23:13:37 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:loan.Education@14dd9eb7]" started-at="2025-05-20T23:13:37 IST" name="afterSuite" finished-at="2025-05-20T23:13:37 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- loan.Education -->
+    </test> <!-- Car Loan -->
+    <test started-at="2025-05-20T23:13:37 IST" name="Animal Loan" finished-at="2025-05-20T23:13:37 IST" duration-ms="88">
+      <class name="loan.Animal">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:loan.Animal@4c583ecf]" started-at="2025-05-20T23:13:37 IST" name="beforeTest" finished-at="2025-05-20T23:13:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:loan.Animal@4c583ecf]" started-at="2025-05-20T23:13:37 IST" name="beforeClass" finished-at="2025-05-20T23:13:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="goatLoan()[pri:0, instance:loan.Animal@4c583ecf]" started-at="2025-05-20T23:13:37 IST" name="goatLoan" finished-at="2025-05-20T23:13:37 IST" duration-ms="29" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at loan.Animal.goatLoan(Animal.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:274)
+at org.testng.internal.thread.ThreadUtil.execute(ThreadUtil.java:70)
+at org.testng.SuiteRunner.runInParallelTestMode(SuiteRunner.java:442)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:371)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goatLoan -->
+        <test-method signature="sheepLoan()[pri:0, instance:loan.Animal@4c583ecf]" started-at="2025-05-20T23:13:37 IST" name="sheepLoan" finished-at="2025-05-20T23:13:37 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sheepLoan -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:loan.Animal@4c583ecf]" started-at="2025-05-20T23:13:37 IST" name="afterClass" finished-at="2025-05-20T23:13:37 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:loan.Animal@4c583ecf]" started-at="2025-05-20T23:13:37 IST" name="afterTest" finished-at="2025-05-20T23:13:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- loan.Animal -->
+    </test> <!-- Animal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

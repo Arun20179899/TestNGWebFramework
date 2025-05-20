@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Loan Department">
+<suite name="Loan Department" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="listeneres.Listeners"/>
+    </listeners>
     <test verbose="2" preserve-order="true" name="Personal Loan"> <!-- this is acts like a module -->
         <classes>
             <class name="loan.Education"> <!-- Package name.class name -->
@@ -10,7 +13,7 @@
             </class>
         </classes>
     </test>
-    <test name="Home Loan">
+    <test name="Home Loan" parallel="classes" thread-count="3"> <!-- it is not a good practice we can use selenium grid to run test in parallel  -->
         <classes>
             <class name="loan.HomeLoan"/>
         </classes>

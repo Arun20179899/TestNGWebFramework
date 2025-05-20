@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeneres.Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Animal Loan(failed)">
+    <classes>
+      <class name="loan.Animal">
+        <methods>
+          <include name="goatLoan"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- loan.Animal -->
+    </classes>
+  </test> <!-- Animal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
